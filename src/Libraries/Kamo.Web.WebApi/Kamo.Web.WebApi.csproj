@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net46;net461</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configration\Mapper\MapperConfig.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configration\Mapper\" />
+    <Folder Include="Result\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kamo.Common\Kamo.Common.csproj" />
+    <ProjectReference Include="..\Kamo.Core\Kamo.Core.csproj" />
+  </ItemGroup>
+
+</Project>
