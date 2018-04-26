@@ -16,15 +16,13 @@ namespace Kamo.Web.WebApi
             _kamoApiConfiguration = new KamoApiConfiguration(GlobalConfiguration.Configuration);
 
             InitFramework();
-            
         }
 
         protected virtual void InitFramework()
         {
             _kamoConfiguration
-                .SetResultWrapper(_kamoApiConfiguration); 
-               // .UseAutofac();
-
+                .SetResultWrapper(_kamoApiConfiguration);
+            // .UseAutofac();
         }
 
         protected virtual void Application_Start()

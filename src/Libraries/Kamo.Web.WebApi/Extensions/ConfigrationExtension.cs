@@ -8,7 +8,7 @@ namespace Kamo.Web.WebApi.Extensions
     {
         public static KamoConfiguration SetResultWrapper(this KamoConfiguration kamoConfiguration, IKamoApiConfiguration kamoApiConfiguration)
         {
-            kamoApiConfiguration.HttpConfiguration.MessageHandlers.Add(new ResultWrapperHandler());
+            kamoApiConfiguration.HttpConfiguration.MessageHandlers.Add(new ResultWrapperHandler(kamoApiConfiguration));
             return kamoConfiguration;
         }
     }

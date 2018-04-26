@@ -50,14 +50,14 @@ namespace Kamo.Web.WebApi.Configration
 
         public HttpConfiguration HttpConfiguration
         {
-            get {
+            get
+            {
                 if (SetCamelCaseForAllResponses)
                 {
                     _httpConfiguration.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
                 }
                 return _httpConfiguration;
             }
-           
         }
     }
 }
