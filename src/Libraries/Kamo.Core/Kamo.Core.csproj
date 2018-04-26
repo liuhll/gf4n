@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dependency\Autofac\" />
     <Folder Include="Domain\Entities\" />
     <Folder Include="Domain\Repositories\" />
     <Folder Include="Events\Bus\" />
