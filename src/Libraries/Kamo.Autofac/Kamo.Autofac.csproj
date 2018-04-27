@@ -4,4 +4,12 @@
      <TargetFrameworks>net46;net461</TargetFrameworks>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="3.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kamo.Core\Kamo.Core.csproj" />
+  </ItemGroup>
+
 </Project>

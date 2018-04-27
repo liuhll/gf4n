@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -104,10 +105,29 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Demo\Kamo.Demo.Service\Kamo.Demo.Service.csproj">
+      <Project>{c72ef2b1-daff-4e78-a90b-ed157a621be7}</Project>
+      <Name>Kamo.Demo.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\Kamo.Autofac\Kamo.Autofac.csproj">
+      <Project>{2dc33dee-62bb-4496-86e3-ee140db822b1}</Project>
+      <Name>Kamo.Autofac</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\Kamo.Common\Kamo.Common.csproj">
+      <Project>{5bc8b3e3-7d5a-4d48-888b-8b8eadd44af0}</Project>
+      <Name>Kamo.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\Kamo.Core\Kamo.Core.csproj">
+      <Project>{279fbc30-abb6-465a-a577-a861c5303934}</Project>
+      <Name>Kamo.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\Kamo.Dapper\Kamo.Dapper.csproj">
+      <Project>{1688f598-b4d9-4588-91a6-4200f40fc97c}</Project>
+      <Name>Kamo.Dapper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Kamo.Web.WebApi\Kamo.Web.WebApi.csproj">
       <Project>{8a5d96f2-1b7d-4837-b3df-5330d16ad5ac}</Project>
       <Name>Kamo.Web.WebApi</Name>

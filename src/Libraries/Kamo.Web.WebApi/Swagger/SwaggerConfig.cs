@@ -10,7 +10,7 @@ namespace Kamo.Web.WebApi.Swagger
     {
         public static void Register(IKamoApiConfiguration kamoApiConfiguration)
         {
-            var thisAssembly = typeof(SwaggerConfig).Assembly;
+           // var thisAssembly = typeof(SwaggerConfig).Assembly;
 
             kamoApiConfiguration.HttpConfiguration
                 .EnableSwagger(c =>

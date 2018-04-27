@@ -10,9 +10,12 @@ namespace Kamo.Gf4n.WebApi
 
         }
 
-        protected void Application_Start()
+        protected virtual void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            InitFramework();
+           
+
         }
     }
 }

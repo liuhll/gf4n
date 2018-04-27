@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.WebApi2" Version="4.1.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.4" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.4" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Core.zh-Hans" Version="5.2.4" />
@@ -25,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Kamo.Autofac\Kamo.Autofac.csproj" />
     <ProjectReference Include="..\Kamo.Common\Kamo.Common.csproj" />
     <ProjectReference Include="..\Kamo.Core\Kamo.Core.csproj" />
   </ItemGroup>

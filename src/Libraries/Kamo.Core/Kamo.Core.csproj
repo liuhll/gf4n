@@ -10,4 +10,8 @@
     <Folder Include="Events\Bus\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Kamo.Common\Kamo.Common.csproj" />
+  </ItemGroup>
+
 </Project>
