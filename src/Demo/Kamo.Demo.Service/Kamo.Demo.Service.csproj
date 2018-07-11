@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net46</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Kamo.Common\Kamo.Common.csproj" />
+    <ProjectReference Include="..\..\Libraries\Kamo.Core\Kamo.Core.csproj" />
+  </ItemGroup>
+
+</Project>

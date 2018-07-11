@@ -21,13 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamo.MailKit", "Libraries\K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamo.Gf4n.WebApi", "Hosts\Kamo.Gf4n.WebApi\Kamo.Gf4n.WebApi.csproj", "{6BC620F1-196C-4F75-BFE5-773469C0BE57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamo.Web.WebApi", "Libraries\Kamo.Web.WebApi\Kamo.Web.WebApi.csproj", "{8A5D96F2-1B7D-4837-B3DF-5330D16AD5AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamo.Web.WebApi", "Libraries\Kamo.Web.WebApi\Kamo.Web.WebApi.csproj", "{8A5D96F2-1B7D-4837-B3DF-5330D16AD5AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamo.Auth", "Libraries\Kamo.Auth\Kamo.Auth.csproj", "{759BA7E5-B759-41B6-96BE-D739CA36DCA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamo.Auth", "Libraries\Kamo.Auth\Kamo.Auth.csproj", "{759BA7E5-B759-41B6-96BE-D739CA36DCA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamo.Autofac", "Libraries\Kamo.Autofac\Kamo.Autofac.csproj", "{2DC33DEE-62BB-4496-86E3-EE140DB822B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamo.Autofac", "Libraries\Kamo.Autofac\Kamo.Autofac.csproj", "{2DC33DEE-62BB-4496-86E3-EE140DB822B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamo.EarlyWarn", "Libraries\Kamo.EarlyWarn\Kamo.EarlyWarn.csproj", "{86A7FDEA-0A7C-4541-9B9E-1E6E2C935F9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamo.EarlyWarn", "Libraries\Kamo.EarlyWarn\Kamo.EarlyWarn.csproj", "{86A7FDEA-0A7C-4541-9B9E-1E6E2C935F9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{A00F3DA2-D61B-4392-8BC4-349F74FB5C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamo.Demo.Service", "Demo\Kamo.Demo.Service\Kamo.Demo.Service.csproj", "{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamo.Demo.Entities", "Demo\Kamo.Demo.Entities\Kamo.Demo.Entities.csproj", "{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +85,14 @@ Global
 		{86A7FDEA-0A7C-4541-9B9E-1E6E2C935F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86A7FDEA-0A7C-4541-9B9E-1E6E2C935F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86A7FDEA-0A7C-4541-9B9E-1E6E2C935F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +109,8 @@ Global
 		{759BA7E5-B759-41B6-96BE-D739CA36DCA5} = {AA8395E6-8FF5-4CFD-B757-9846938B5ECD}
 		{2DC33DEE-62BB-4496-86E3-EE140DB822B1} = {AA8395E6-8FF5-4CFD-B757-9846938B5ECD}
 		{86A7FDEA-0A7C-4541-9B9E-1E6E2C935F9D} = {AA8395E6-8FF5-4CFD-B757-9846938B5ECD}
+		{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7} = {A00F3DA2-D61B-4392-8BC4-349F74FB5C3F}
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9} = {A00F3DA2-D61B-4392-8BC4-349F74FB5C3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B228CBD-EE3E-47B5-ADCB-68FE6E3504DF}
