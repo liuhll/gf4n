@@ -1,4 +1,4 @@
-# 新零售部门.net通用框架
+# .net通用框架
 
 ## 项目名称 General Framework For Dotnet(简称:gf4n)
 
