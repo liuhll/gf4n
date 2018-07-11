@@ -7,6 +7,6 @@ namespace Kamo.Demo.Service.Demo
 {
     public interface IDemoService : ITransientDependency
     {
-        void TestDiMethod();
+        string TestDiMethod();
     }
 }

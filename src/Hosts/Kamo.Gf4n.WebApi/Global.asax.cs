@@ -1,4 +1,5 @@
-﻿using Kamo.Web.WebApi;
+﻿using Kamo.Dapper.Extension;
+using Kamo.Web.WebApi;
 using System.Web.Http;
 
 namespace Kamo.Gf4n.WebApi
@@ -12,10 +13,11 @@ namespace Kamo.Gf4n.WebApi
 
         protected virtual void Application_Start()
         {
-            GlobalConfiguration.Configure(WebApiConfig.Register);
+            
             InitFramework();
-           
-
+            GlobalConfiguration.Configure(WebApiConfig.Register);
+            _kamoConfiguration
+                .UseDapperContext("testDb1", "Kamo.Demo.Entities");
         }
     }
 }

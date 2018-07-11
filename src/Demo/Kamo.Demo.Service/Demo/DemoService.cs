@@ -8,9 +8,9 @@ namespace Kamo.Demo.Service.Demo
 {
     public class DemoService : IDemoService
     {
-        public void TestDiMethod()
+        public string TestDiMethod()
         {
-            
+            return "OK";
         }
     }
 }

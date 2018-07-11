@@ -108,6 +108,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Demo\Kamo.Demo.Entities\Kamo.Demo.Entities.csproj">
+      <Project>{f906e854-abc7-4de0-82fe-fef6ea9239e9}</Project>
+      <Name>Kamo.Demo.Entities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Demo\Kamo.Demo.Service\Kamo.Demo.Service.csproj">
       <Project>{c72ef2b1-daff-4e78-a90b-ed157a621be7}</Project>
       <Name>Kamo.Demo.Service</Name>

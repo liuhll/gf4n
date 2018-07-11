@@ -16,9 +16,10 @@ namespace Kamo.Gf4n.WebApi.Controllers
 
         [Route("testdi")]
         [HttpGet]
-        public void TestDi()
+        public string TestDi()
         {
-
+            
+            return _demoService.TestDiMethod();
         }
 
     }

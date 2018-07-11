@@ -17,7 +17,6 @@ namespace Kamo.Core.Reflection
             _assemblyFinder = new AssemblyFinder();
             _assemblyFinder.AssemblyNames.AddIfNotContains("Kamo.Core");
             _assemblyFinder.AssemblyNames.AddIfNotContains("Kamo.Dapper");
-           
         }
 
         public Type[] Find(Func<Type, bool> predicate)

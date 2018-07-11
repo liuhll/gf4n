@@ -5,9 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\Entities\" />
-    <Folder Include="Domain\Repositories\" />
     <Folder Include="Events\Bus\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.Extensions.Linq.Core" Version="1.0.8" />
   </ItemGroup>
 
   <ItemGroup>

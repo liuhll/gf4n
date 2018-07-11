@@ -1,5 +1,4 @@
-﻿using System;
-using Kamo.Core.Dependency;
+﻿using Kamo.Core.Dependency;
 
 namespace Kamo.Core.Configurations
 {
@@ -26,7 +25,6 @@ namespace Kamo.Core.Configurations
             ObjectContainer.Register<TService, TImplementer>(serviceName, life);
             return this;
         }
-
 
         public KamoConfiguration SetDefault<TService, TImplementer>(TImplementer instance, string serviceName = null)
             where TService : class

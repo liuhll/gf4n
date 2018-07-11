@@ -4,4 +4,16 @@
      <TargetFrameworks>net46;net461</TargetFrameworks>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper.Extensions.Linq" Version="1.1.17" />
+    <PackageReference Include="Dapper.Extensions.Linq.Core" Version="1.0.8" />
+    <PackageReference Include="Dapper.Extensions.Linq.MySql" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kamo.Autofac\Kamo.Autofac.csproj" />
+    <ProjectReference Include="..\Kamo.Common\Kamo.Common.csproj" />
+    <ProjectReference Include="..\Kamo.Core\Kamo.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{A00F3DA2-D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamo.Demo.Service", "Demo\Kamo.Demo.Service\Kamo.Demo.Service.csproj", "{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamo.Demo.Entities", "Demo\Kamo.Demo.Entities\Kamo.Demo.Entities.csproj", "{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +110,7 @@ Global
 		{2DC33DEE-62BB-4496-86E3-EE140DB822B1} = {AA8395E6-8FF5-4CFD-B757-9846938B5ECD}
 		{86A7FDEA-0A7C-4541-9B9E-1E6E2C935F9D} = {AA8395E6-8FF5-4CFD-B757-9846938B5ECD}
 		{C72EF2B1-DAFF-4E78-A90B-ED157A621BE7} = {A00F3DA2-D61B-4392-8BC4-349F74FB5C3F}
+		{F906E854-ABC7-4DE0-82FE-FEF6EA9239E9} = {A00F3DA2-D61B-4392-8BC4-349F74FB5C3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B228CBD-EE3E-47B5-ADCB-68FE6E3504DF}
